@@ -66,6 +66,10 @@
   }
 }
 
+scrollbar { 
+    display: none; 
+}
+
 html { overflow:  hidden; }
 
 body {
