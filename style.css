@@ -66,11 +66,6 @@
   }
 }
 
-scrollbar { 
-    display: none; 
-}
-
-html { overflow:  hidden; }
 
 body {
   width: 100vw;
@@ -80,7 +75,7 @@ body {
   font-family: "Arial", sans-serif;
   line-height: 3vh;
   position:fixed;
-  overflow:hidden;
+  overflow-y:hidden;
 }
 
 h1 {
