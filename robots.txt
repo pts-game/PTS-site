@@ -1,3 +1,4 @@
 User-Agent: *
 Allow: /
 Disallow: NoscriptErrorPage
+Sitemap: https://pts-game.github.io/sitemap.xml
