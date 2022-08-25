@@ -7,14 +7,21 @@
     height: 30vh;
   }
   .main-description {
-    top: 1vh;
-    height: 30vh;
-    width: 80vw;
+    position: absolute;
+    top: 60vh;
+    height: 25vh;
+    width: 90vw;
   }
-  .main-description h2, p{
-    float: left;
-    display: inline-block;
+
+  .main-description-p p{
+    width: 90vw;
   }
+
+  .buttons {
+    position: absolute;
+    top: 52vh;
+  }
+
 }
 
 
@@ -75,7 +82,6 @@ body {
   font-family: "Arial", sans-serif;
   line-height: 3vh;
   position:fixed;
-  overflow-y:hidden;
 }
 
 h1 {
@@ -120,6 +126,8 @@ h2 {
 }
 
 .main-description {
+  overflow-y: auto;
+  overflow-x: hidden;
   border: 0.3vmin solid #a39148;
   margin-left: 3vw;
   margin-bottom: 3vh;
@@ -127,7 +135,7 @@ h2 {
 }
 
 .main-description-p p {
-  width: 24vw;
+  width: 90%;
   vertical-align: middle;
   font-family: "Arial", serif;
   font-size: 2vh;
